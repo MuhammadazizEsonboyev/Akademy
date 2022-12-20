@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+    width: 100%;
+}
+
+header {
+    background: url(./img/bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+nav {
+    padding-top: 25px;
+}
+
+.after::after {
+    content: "";
+    border: 1px solid white;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 90px;
+}
+
+.left_icons {
+    display: flex;
+    justify-content: end;
+    gap: 30px;
+}
+
+.icons{
+    display: flex;
+}
+.phone_number {
+    border-right: 1px solid white;
+    padding-right: 20px;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.fa-solid {
+    padding-left: 10px;
+    font-size: 25px;
+    color: #fff;
+}
+
+.fa-brands {
+    font-size: 25px;
+    color: #fff;
+}
+
+
+.text-head {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    border: 2px solid white;
+    border-radius: 20px;
+    background: transparent;
+    padding: 2px 14px;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+}
+
+
+.text-head-info {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+.info-head {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    padding-top: 15px;
+    padding-bottom: 60px;
+}
+
+span {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.star {
+    display: inline;
+    border-radius: 50%;
+    padding: 18px;
+    background: rgba(255, 255, 255, 0.2);
+    /* opacity:  0.1; */
+    color: #fff;
+}
+
+
+.icon-father-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.data {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+
+.btn-regist {
+    padding: 15px 33px;
+    border: none;
+    border-radius: 50px;
+    background: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: #232323;
+}
+
+
+.button-info-text {
+    display: flex;
+    align-items: center;
+    margin-top: 70px;
+    padding-bottom: 150px;
+}
+
+
+.regis-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #FFFFFF;
+    margin: 0;
+    padding-left: 37px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  -------------------------------- responsive ---------------------------- */
+
+
+@media(max-width: 575px) {
+    .text-head {
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        text-align: center;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        border: 2px solid white;
+        border-radius: 20px;
+        background: transparent;
+        padding: 2px 14px;
+        letter-spacing: 5px;
+        margin-bottom: 14px;
+    }
+
+    .text-head-info {
+        font-family: 'Arial';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 38px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .info-head {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        text-align: center;
+        color: #FFFFFF;
+        padding-bottom: 20px;
+    }
+    span{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .button-info-text {
+        margin-top: 29px;
+        padding-bottom: 40px;
+    }
+    
+    .fa-bars{
+        font-size: 35px;
+    }
+}
