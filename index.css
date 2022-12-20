@@ -193,12 +193,17 @@ span {
 /*  -------------------------------- responsive ---------------------------- */
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 576px) {
+    .fa-bars {
+        padding-left: 10px;
+        font-size: 57px;
+        color: #fff;
+    }
     .text-head {
         font-family: 'Arial';
         font-style: normal;
         font-weight: 400;
-        font-size: 7px;
+        font-size: 15px;
         text-align: center;
         color: #FFFFFF;
         text-transform: uppercase;
@@ -213,7 +218,7 @@ span {
     .text-head-info {
         font-style: normal;
         font-weight: 700;
-        font-size: 46px;
+        font-size: 40px;
         text-align: center;
         color: #FFFFFF;
     }
@@ -239,6 +244,6 @@ span {
     }
     
     .fa-bars{
-        font-size: 35px;
+        /* font-size: 35px; */
     }
 }
