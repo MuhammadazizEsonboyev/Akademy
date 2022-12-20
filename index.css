@@ -193,12 +193,12 @@ span {
 /*  -------------------------------- responsive ---------------------------- */
 
 
-@media(max-width: 650px) {
+@media screen and (max-width: 600px) {
     .text-head {
         font-family: 'Arial';
         font-style: normal;
         font-weight: 400;
-        font-size: 10px;
+        font-size: 7px;
         text-align: center;
         color: #FFFFFF;
         text-transform: uppercase;
@@ -211,10 +211,9 @@ span {
     }
 
     .text-head-info {
-        font-family: 'Arial';
         font-style: normal;
         font-weight: 700;
-        font-size: 38px;
+        font-size: 46px;
         text-align: center;
         color: #FFFFFF;
     }
